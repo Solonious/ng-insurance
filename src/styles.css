@@ -1,1 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+@import "css/slick-theme.css";
+@import "css/slick.css";
+@import "css/styles_part.css";
+@import "css/style.css";

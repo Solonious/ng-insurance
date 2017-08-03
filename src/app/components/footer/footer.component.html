@@ -1,0 +1,80 @@
+<footer class="footer">
+  <div class="footer-feedback-wrapper col-xs-11" id="feedbackForm" role="document">
+    <div class="modal-content">
+      <h4>Зворотній зв’язок</h4>
+      <button class="close" id="feedbackFormClose" type="button">
+        <div></div>
+        <div></div>
+      </button>
+      <form class="feedback-form" data-toggle="validator" role="form">
+        <div class="form-group">
+                        <textarea class="form-control" id="feedbackMessage" required=""
+                                  placeholder="Ваше повідомлення"></textarea>
+        </div>
+        <div class="form-group">
+          <input class="btn-blue btn-xs" id="feedbackBtnSend" type="submit" value="Надіслати">
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="modal fade in" id="feedbackInfoMessege" tabindex="-1" role="dialog">
+    <div class="modal-dialog small info-window">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <div></div>
+            <div></div>
+          </button>
+          <div class="info-message">
+            <p>Ваше повідомлення відправлено. Працівники СК “Інго” зв’яжуться з Вами найближчим
+              часом</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-4 col-xs-offset-1">
+        <div class="feedback-blck">
+          <div class="phone-num"><span>0 800 305 553</span></div>
+          <div class="feedback-call">
+            <button id="feedbackBtn" role="button"><span>Зворотній зв’язок</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-5">
+        <div class="change-location">
+          <label>Змінити місто</label>
+          <div class="city-select">
+            <select class="selectpicker dropup fit-width" id="fooChangeLocation" data-size="5"
+                    data-style="">
+              <option value="" data-address="">Київ</option>
+              <option value="">Вінниця</option>
+              <option value="">Дніпро</option>
+              <option value="">Донецьк</option>
+              <option value="">Житомир</option>
+              <option value="" selected>Запоріжжя</option>
+              <option value="">Івано-Франківськ</option>
+              <option value="">Кропивницький</option>
+              <option value="">Луганськ</option>
+            </select>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; Copyright 2016 <span>ІНГО Україна</span></p>
+        </div>
+      </div>
+      <div class="col-xs-5">
+        <div class="main-location">
+          <p><span>Центральний офіс:</span>&emsp;<span id="loctionAddress" class="footer-address">пр. Металургів, 21.</span>
+          </p><a href="javascript:void(0)">як проїхати</a>
+        </div>
+        <div class="contacts">
+          <p>(061) 228 32 00</p>
+          <p>(061) 228 32 05</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
