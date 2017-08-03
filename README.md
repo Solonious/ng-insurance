@@ -4,11 +4,11 @@
 
 2. $ `cd ng-insurance`
 
-3. npm install
+3. $ `npm install`
 
 4. `ng serve`  (If it does't work try `npm install -g @angular/cli)
 
-5. Navigate to localhost:4200/ or push [Here]('http://localhost:4200')
+5. Navigate to localhost:4200/ or push [Here]('http://localhost:4200/')
 
 
 Crafting hole application based on Angular 2+
