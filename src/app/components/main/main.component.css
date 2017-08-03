@@ -1,11 +1,16 @@
 .active {
   color: #004b93;
 }
-.document-link:hover {
-  color: #004b93; }
 .document-link {
   display: inline-block;
   color: #9c9b9b;
   cursor: pointer;
+  padding-left: 14px;
   font-size: 18px;
+}
+.nav-item {
+  width: 100%;
+}
+ a:hover {
+  color: #004b93;
 }

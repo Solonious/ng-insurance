@@ -3,32 +3,40 @@
       <div class="row spec-open">
         <div class="col-sm-24 document-col">
           <div class="document-menu">
-            <ngb-tabset class="document-menu">
-              <ngb-tab class="document-elem document-link" title={{documentTabs[0].title}}>
-                <ng-template ngbTabContent>
-                  <p>These tabs are displayed as pills...</p>
-                </ng-template>
-              </ngb-tab>
-              <ngb-tab title={{documentTabs[1].title}}>
-                <ng-template ngbTabContent>
-                  <app-my-cars></app-my-cars>
-                </ng-template>
-              </ngb-tab>
-              <ngb-tab title={{documentTabs[2].title}}>
-                <ng-template ngbTabContent>
-                  <p>These tabs are displayed as pills...</p>
-                </ng-template>
-              </ngb-tab>
-              <ngb-tab title={{documentTabs[3].title}}>
-                <ng-template ngbTabContent>
-                  <p>These tabs are displayed as pills...</p>
-                </ng-template>
-              </ngb-tab>
-              <ngb-tab title={{documentTabs[4].title}}>
-                <ng-template ngbTabContent>
-                  <p>These tabs are displayed as pills...</p>
-                </ng-template>
-              </ngb-tab>
+            <ngb-tabset >
+                <div class="document-elem">
+                    <ngb-tab>
+                        <ng-template ngbTabTitle><img src="../../../assets/svgs/all-contract.svg" alt=""><span class="document-link">{{documentTabs[0].title}}</span></ng-template>
+                        <ng-template ngbTabContent>
+                            <p>These tabs are displayed as pills...</p>
+                        </ng-template>
+                    </ngb-tab>
+                    <ngb-tab>
+                        <ng-template ngbTabTitle><img src="../../../assets/svgs/auto.svg" alt=""><span class="document-link">{{documentTabs[1].title}}</span></ng-template>
+                        <ng-template ngbTabContent>
+                            <app-my-cars></app-my-cars>
+                        </ng-template>
+                    </ngb-tab>
+                    <ngb-tab>
+                        <ng-template ngbTabTitle><img src="../../../assets/svgs/my-goods.svg" alt=""><span class="document-link">{{documentTabs[2].title}}</span></ng-template>
+                        <ng-template ngbTabContent>
+                            <p>These tabs are displayed as pills...</p>
+                        </ng-template>
+                    </ngb-tab>
+                    <ngb-tab>
+                        <ng-template ngbTabTitle><img src="../../../assets/svgs/my-health.svg" alt=""><span class="document-link">{{documentTabs[3].title}}</span></ng-template>
+                        <ng-template ngbTabContent>
+                            <p>These tabs are displayed as pills...</p>
+                        </ng-template>
+                    </ngb-tab>
+                    <ngb-tab>
+                        <ng-template ngbTabTitle><img src="../../../assets/svgs/my-travels.svg" alt=""><span class="document-link">{{documentTabs[4].title}}</span></ng-template>
+                        <ng-template ngbTabContent>
+                            <p>These tabs are displayed as pills...</p>
+                        </ng-template>
+                    </ngb-tab>
+                </div>
+
             </ngb-tabset>
           </div>
         </div>

@@ -62,8 +62,8 @@
     <span class="date-elem">{{data.date}}</span>
   </div>
 
-  <div class="open-block" *ngIf="carContractInfo">
-    <div class="detail-inf"[ngClass]="{visible: visibility}">
+  <div class="open-block" >
+    <div class="detail-inf" *ngIf="carContractInfo" [ngClass]="{visible: visibility}">
       <div>
         <ul class="inf-ul">
           <li class="inf-line">
