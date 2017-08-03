@@ -46,7 +46,7 @@
     <div class="contract-list">
       <ul>
         <li class="contract-tab">
-          <button class="button detail-inf-btn" (click)="showDetail(data.id)">Детальна інформація</button>
+          <button class="button detail-inf-btn" (click)="showDetail()">Детальна інформація</button>
         </li>
         <li class="contract-tab">
           <button class="button check-damage-btn">Страхові справи</button>
@@ -62,7 +62,7 @@
     <span class="date-elem">{{data.date}}</span>
   </div>
 
-  <div class="open-block">
+  <div class="open-block" *ngIf="carContractInfo">
     <div class="detail-inf"[ngClass]="{visible: visibility}">
       <div>
         <ul class="inf-ul">

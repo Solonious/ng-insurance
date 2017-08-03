@@ -16,16 +16,15 @@ export class CascoComponent implements OnInit {
 carContractInfo: CarContractInfo;
 visibility = false;
   constructor(private service: AppService) { }
-
   ngOnInit() {
+      this.getCarContractInfo(this.data.id);
   }
   getCarContractInfo(id: number): void {
     this.service.getContractInfo(id)
       .subscribe(res => this.carContractInfo = res,
         err => console.log(err));
   }
-  showDetail(id: number): void {
-    this.getCarContractInfo(id);
+  showDetail(): void {
     this.visibility = !this.visibility;
   }
 
